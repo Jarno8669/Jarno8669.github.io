@@ -1,0 +1,264 @@
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #004179, #4b4b4b, #004179, #4b4b4b);
+    background-size: 4000% 4000%;
+    animation: gradient 120s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.margin{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.selfie{
+    border-radius: 100%;
+    width: 15%;
+    border: solid 3px black;
+}
+
+.wittetekst {
+    color: white;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+
+}
+
+.form {
+    margin-left: 0%;
+}
+
+.textright {
+    text-align: left;
+}
+
+.fieldwidth {
+    width:95%;
+} 
+
+.msg {
+    width: 97.5%;
+}
+
+.send {
+    margin-left: 39%;
+    width: 20%;
+    margin-top: 2%;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    border: 2px solid rgb(141, 141, 141);
+}
+
+.icon {
+    width: 13%;
+    border-radius: 30%;
+    border: 2px solid rgb(141, 141, 141);
+}
+
+.margindiv {
+    margin-left: 8%;
+}
+
+.logofoto {
+    padding-left: 10px;
+    width: 35px;
+}
+
+.kaart {
+    width: 900px;
+}
+
+input {
+    border: 2px solid rgb(141, 141, 141);
+    color: white;
+    background-color: black;
+}
+
+textarea {
+    border: 2px solid rgb(141, 141, 141);
+    color: white;
+    background-color: black;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.67);
+}
+
+tr {
+    width: 100%;
+}
+
+td {
+    width: 50%;
+}
+
+table {
+    width: 100%;
+}
+
+.contact {
+    padding: 50px;
+    background-color: rgba(128, 128, 128, 0.674);
+    border: 3px black solid;
+    border-radius: 25px;
+}
+
+.blocks {
+    width: 100%;
+    height: 100%;
+}
+
+.project1 {
+width: 100%;
+background-size: cover;
+border: black 2px solid;
+border-radius: 25px;
+}
+
+
+.buttonproject {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.buttonproject:hover {
+    width: 81%;
+    height: 71%;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.grey {
+    background-color: rgba(128, 128, 128, 0.674);
+    width: 22%;
+    padding: 20px;
+    border: 3px black solid;
+    border-radius: 25px;
+    display: inline-block;
+    margin-left: 1.5%;
+    margin-top: 1.5%;
+}
+
+.wrap {
+    margin: 2%;
+}
+
+.scaletext {
+    font-size: 145%;
+    padding-right: 10%;
+}
+
+.cardhead {
+    background-color: #000000;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.cardframe {
+    background-color: rgba(255, 255, 255, 0.412);
+    border-radius: 30px;
+}
+
+.smalltext {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.marginleft {
+    margin-left: 3%;
+}
+
+.selfie2 {
+    width: 60%;
+    border-radius: 100%;
+    border: solid 3px black;
+}
+
+.overmijblok {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.674);
+    border: 3px black solid;
+    border-radius: 25px;
+}
+
+.tabelcijfers {
+    border: 1px solid white;
+    width: 15%;
+}
+
+.knopopleiding {
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.knopopleiding:hover {
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(24, 24, 24);
+}
+
+.margindivschool {
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+.schoolfoto {
+    width: 100%;
+    border: solid 3px black;
+    border-radius: 25px ;
+}
+
+.cijferlijst {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cijferlijstknop {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.cijferlijstknop:hover {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(82, 82, 82);
+    border: 1px solid white;
+    border-radius: 10px;
+}
